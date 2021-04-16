@@ -205,7 +205,7 @@ if __name__ == "__main__":
 
     start_t = time.time()
     if cfg.TRAIN.FLAG:
-        algo.trian()
+        algo.train()
     else:
         '''generate images from pre-extracted embeddings'''
         if cfg.B_VALIDATION:
